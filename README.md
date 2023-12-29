@@ -2,7 +2,7 @@ My first README.md
 
 alx-pre-course Repository
 
-Description: This repository documents the tasks completed as part of the ALX Pre-Course, focusing on Git and GitHub usage. Each task is organized into separate directories with specific objectives.
+Description: This repository documents the tasks completed as part of the alx-pre_course projects, focusing on Git and GitHub usage. Each task is organized into separate directories with specific objectives.
 
 Concepts Covered
 
