@@ -1,9 +1,10 @@
 My second readme for the first git task
 Updated my readme
 
-Tasks: 
+Task 0 - 
 
-0 - Step 1: says to create a github account
+Step 1: says to create a github account
+
 Step 2: says to create a personal access token : To create a personal access token, you can follow [this tutorial](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) or you can just follow these simple steps:
 
 When logged in to your github account, the next thing to do is:
@@ -38,7 +39,42 @@ Then, click on generate token.
 
 Make sure to copy your generated token in a safe place, like your email drafts, notepad or sticky notes on your computer. The token will only be displayed once, so it is safer and advisable to do this
 
-Step 2: Update your p
+Step 2: Update your profile on the Intranet with your github username.
+
+Step 3: says to create a new repository and how do we do this? ![image](https://github.com/getacupoftea/alx-pre_course/assets/125554239/17e3264e-f584-4dc2-90ad-9716118762ae)
+
+- Click on the "+" icon in the top right corner and select "New repository."
+- The next thing to do is fill in the necessary repository details:
+Enter a unique name for your repository, in my case, I followed the instructions on my tasks. The name of this repository should be: alx-pre_course
+Add a brief description. In my case, the description was given as : I'm now a ALX Student, this is my first repository as a full-stack engineer
+Choose between making it public or private, it is based on preferences. However, in my own case as an ALX student, it should be a public repo.
+Add a README.md file if needed, although, the instruction says to not add one (I am saying this as an ALX SE student)
+- Configure Repository Settings:
+Choose a license (if applicable).
+Add a .gitignore file (optional). Though, all these were not required in my case.
+- Now, that we are done with these, the next thing is to:
+Click the "Create repository" button
+
+YAY! We have now successfully created a new repository.
+
+Step 4: Go back to your intranet, and open/launch your sandbox or webterm, depending on which you are using or prefer.
+
+Step 5: Clone your repository: You could simply do this with just the repository URL, by doing this : git clone + repository URL. 
+However, as an ALX student, as stated in the task, I am to do this:
+git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-pre_course.git
+replace the personal token with the already generated token that is in a secure place
+replace your username with your github username.
+
+Well, is it safe to say that I do not really know how necessary this is as at the time of writing this README.md file, but I will find out later. LOL
+
+Step 6: Navigate to the cloned repository using the "cd" command, and create a README.md file. Write the content as specified, and if not, create yours based on your preference.
+
+Next, I updated my git identity as required:
+git config --global user.email "you@example.com" (replace the text in "" with my email address)
+git config --global user.name "Your Name" (replace the text in "" with my username)
+
+Lastly, I git add, git commit with the command (git commit -m "My first commit" - as the commit message, and git push.
+
 
 
 
